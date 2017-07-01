@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+
+
+<script>
+
+    function hello(value) {
+        if (typeof(value) == 'string' && value.startsWith('"') && value.endsWith('"')) {
+            return value.slice(1, value.length - 1);
+        }
+        return value;
+    }
+</script>
